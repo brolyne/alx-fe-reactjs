@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import RecipeList from './components/RecipeList'
 import AddRecipeForm from './components/AddRecipeForm'
+import FavouritesList from './components/FavouritesList'
+import RecommendationsList from './components/RecommendationsList'
 import './App.css'
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<RecipeList />} />
           <Route path="/add" element={<AddRecipeForm />} />
+          <Route path="/favourites" element={<FavouritesList />} />
+          <Route path="/recommendations" element={<RecommendationsList />} />
         </Routes>
         <div>
           <a href="https://vite.dev" target="_blank">
