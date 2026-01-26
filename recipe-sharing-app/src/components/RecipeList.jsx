@@ -1,22 +1,22 @@
 import { useRecipeStore } from './recipeStore';
-import { useState } from 'react';
-//src/components/recipeStore.js doesn't contain: ["updateRecipe", "deleteRecipe"]
 
-  const RecipeList = () => {
+const RecipeList = () => {
+  const filteredRecipes = useRecipeStore(state => state.filteredRecipes);
 
-    const [updateRecipe, deleteRecipe] = useRecipeStore(state => [state.updateRecipe, state.deleteRecipe]);
+  if (filteredRecipes.length === 0) {
+    return <p>No recipes found 👀</p>;
+  }
 
-    const recipes = useRecipeStore(state => state.recipes);
+  return (
+    <div>
+      {filteredRecipes.map(recipe => (
+        <div key={recipe.id}>
+          <h3>{recipe.title}</h3>
+          <p>{recipe.description}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
 
-    return (
-      <div>
-        {recipes.map(recipe => (
-          <div key={recipe.id}>
-            <h3>{recipe.title}</h3>
-            <p>{recipe.description}</p>
-          </div>
-        ))}
-      </div>
-    );
-  };
 export default RecipeList;
