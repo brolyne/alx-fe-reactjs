@@ -2,6 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
+//Setup React Router (if not already set up):
+//Implement routing in your application to handle navigation to different recipes’ details.
+//Use react-router-dom to set up routes that match the path to RecipeDetails.
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 import RecipeList from './components/RecipeList'
 import AddRecipeForm from './components/AddRecipeForm'
 import './App.css'
