@@ -33,6 +33,7 @@ export default function Search(){
                 {!data&& <p>Looks like we cant find the user</p>}
                 
                {data &&<div>
+                <p>Login: {data.login}</p>
                 <p>Name: {data.name}</p>
                 <p>Bio: {data.bio}</p>
                 <p>Public Repos: {data.public_repos}</p>
