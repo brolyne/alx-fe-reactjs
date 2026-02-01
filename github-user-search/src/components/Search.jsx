@@ -13,6 +13,7 @@ export default function Search(){
         e.preventDefault();
         setloading(true);
         console.log("Fetching");
+        setdata(null);
         const data = await fetchUserData(input, numberofrepos);
         setdata(data);
         setloading(false);
@@ -40,15 +41,23 @@ export default function Search(){
                 <h3>Results</h3>
                 {!data&& <p>Looks like we cant find the user</p>}
                 
-               {data &&<div>
-                <p>Login: {data.login}</p>
-                <p>Name: {data.name}</p>
-                <p>Bio: {data.bio}</p>
-                <p>Public Repos: {data.public_repos}</p>
-                <p>Followers: {data.followers}</p>
-                <p>Following: {data.following}</p>
-                <img src={data.avatar_url} alt="avatar" width="100"/>
-               </div>}
+               {data &&
+                data.map((item)=>{
+                    return(
+                        <div key={item.id}>
+                            <p>Login: {item.login}</p>
+                            
+                            <p>Bio: {item.bio}</p>
+                            <p>Public Repos: {item.public_repos}</p>
+                            <p>Followers: {item.followers}</p>
+                            <p>Following: {item.following}</p>
+                            <img src={item.avatar_url} alt="avatar" width="100"/>
+                
+                        </div>
+                    )
+
+                })
+               }
             </div>
 
         
