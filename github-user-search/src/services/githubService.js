@@ -1,12 +1,11 @@
+import axios from 'axios';
 
-export async function fetchUserData(name){
+
+export async function fetchUserData(name, numberofrepos){
     try {
-        const res = await fetch(`https://api.github.com/users/${name}`);
-        if(!res.ok){
-        throw new Error('User not found');
-    }
-    const data = await res.json();
-    return data;
+        const res = await axios.get(`https://api.github.com/users/${name}`);
+    //const data = await res.json();
+    return res.data;
     } catch (error) {
         console.log("Error: ",error)
     }
