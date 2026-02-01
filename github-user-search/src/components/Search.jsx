@@ -14,7 +14,7 @@ export default function Search(){
         setloading(true);
         console.log("Fetching");
         setdata(null);
-        const data = await fetchUserData(input, numberofrepos);
+        const data = await fetchUserData(input, numberofrepos, location);
         setdata(data);
         setloading(false);
         console.log("Data: ",data);
@@ -42,22 +42,22 @@ export default function Search(){
                 {!data&& <p>Looks like we cant find the user</p>}
                 
                {data &&
-                data.map((item)=>{
-                    return(
-                        <div key={item.id}>
-                            <p>Login: {item.login}</p>
-                            
-                            <p>Bio: {item.bio}</p>
-                            <p>Public Repos: {item.public_repos}</p>
-                            <p>Followers: {item.followers}</p>
-                            <p>Following: {item.following}</p>
-                            <img src={item.avatar_url} alt="avatar" width="100"/>
+                  data.map(item => (
+                    <div key={item.id} style={{ borderBottom: "1px solid #ddd", marginBottom: "10px" }}>
+                      <img src={item.avatar_url} alt="avatar" width="80" />
+                      <p>Username: {item.login}</p>
                 
-                        </div>
-                    )
+                      <a
+                        href={item.html_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                       >
+                        View GitHub Profile
+                      </a>
+                    </div>
+                  ))
+                }
 
-                })
-               }
             </div>
 
         
