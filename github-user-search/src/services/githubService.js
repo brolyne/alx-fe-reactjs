@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 
-export async function fetchUserData(name, numberofrepos, location){
+export async function fetchUserData(name, minRepos, location){
     try {
-        const res = await axios.get(`https://api.github.com/search/users`,{params:{
-            q:`${name} location:${location} repos:>=${numberofrepos}`,
-            per_page:30
-        }});
+        const query = `${name} location:${location} repos:>=${minRepos}`;
+        const url = `https://api.github.com/search/users?q=${encodeURIComponent(query)}`;
+        
+        const res = await axios.get(url);
     //const data = await res.json();
     return res.data.items;
     } catch (error) {
