@@ -12,12 +12,10 @@ export default function Search(){
     async function submit(e){
         e.preventDefault();
         setloading(true);
-        console.log("Fetching");
         setdata(null);
         const data = await fetchUserData(input, numberofrepos, location);
         setdata(data);
         setloading(false);
-        console.log("Data: ",data);
 
     }
 
