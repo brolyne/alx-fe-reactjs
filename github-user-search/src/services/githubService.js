@@ -7,6 +7,7 @@ export async function fetchUserData(name, numberofrepos){
     //const data = await res.json();
     return res.data;
     } catch (error) {
+        return null;
         console.log("Error: ",error)
     }
 }
