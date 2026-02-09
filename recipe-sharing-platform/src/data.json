@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://via.placeholder.com/400x300?text=Spaghetti+Carbonara"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://via.placeholder.com/400x300?text=Chicken+Tikka+Masala"
+  },
+  {
+    "id": 3,
+    "title": "Margherita Pizza",
+    "summary": "Traditional Italian pizza with tomato sauce, mozzarella, basil, and olive oil.",
+    "image": "https://via.placeholder.com/400x300?text=Margherita+Pizza"
+  },
+  {
+    "id": 4,
+    "title": "Thai Green Curry",
+    "summary": "Aromatic green curry with coconut milk, vegetables, and tender chicken.",
+    "image": "https://via.placeholder.com/400x300?text=Thai+Green+Curry"
+  },
+  {
+    "id": 5,
+    "title": "Beef Tacos",
+    "summary": "Mexican-style tacos with seasoned ground beef, fresh toppings, and warm tortillas.",
+    "image": "https://via.placeholder.com/400x300?text=Beef+Tacos"
+  },
+  {
+    "id": 6,
+    "title": "Caesar Salad",
+    "summary": "Crisp romaine lettuce with parmesan cheese, croutons, and creamy Caesar dressing.",
+    "image": "https://via.placeholder.com/400x300?text=Caesar+Salad"
+  }
+]
