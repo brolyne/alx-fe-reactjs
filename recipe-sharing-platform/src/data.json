@@ -3,36 +3,182 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/400x300?text=Spaghetti+Carbonara"
+    "image": "https://via.placeholder.com/400x300?text=Spaghetti+Carbonara",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "servings": 4,
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or bacon, diced",
+      "4 large eggs",
+      "100g Parmesan cheese, grated",
+      "2 cloves garlic, minced",
+      "Black pepper to taste",
+      "Salt for pasta water"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to boil and cook spaghetti according to package directions.",
+      "While pasta cooks, fry the pancetta in a large pan until crispy. Add minced garlic and cook for 1 minute.",
+      "In a bowl, whisk together eggs and Parmesan cheese.",
+      "Drain pasta, reserving 1 cup of pasta water.",
+      "Add hot pasta to the pan with pancetta. Remove from heat.",
+      "Pour egg mixture over pasta and toss quickly, adding pasta water as needed for creaminess.",
+      "Season with salt and black pepper to taste. Serve immediately."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/400x300?text=Chicken+Tikka+Masala"
+    "image": "https://via.placeholder.com/400x300?text=Chicken+Tikka+Masala",
+    "prepTime": "30 mins",
+    "cookTime": "45 mins",
+    "servings": 4,
+    "ingredients": [
+      "750g chicken breast, cubed",
+      "1 cup yogurt",
+      "3 tbsp tikka masala paste",
+      "400ml coconut milk",
+      "400g canned tomatoes",
+      "2 onions, diced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, minced",
+      "2 tbsp oil",
+      "Fresh cilantro",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and 1 tbsp tikka paste for at least 15 minutes.",
+      "Heat oil in a large pan and cook chicken until golden. Set aside.",
+      "In the same pan, sauté onions until soft. Add garlic and ginger, cook for 1 minute.",
+      "Stir in remaining tikka paste and cook for 2 minutes.",
+      "Add canned tomatoes and coconut milk. Simmer for 10 minutes.",
+      "Return chicken to the pan and simmer for 15-20 minutes until cooked through.",
+      "Season with salt and pepper. Garnish with fresh cilantro.",
+      "Serve with rice or naan bread."
+    ]
   },
   {
     "id": 3,
     "title": "Margherita Pizza",
     "summary": "Traditional Italian pizza with tomato sauce, mozzarella, basil, and olive oil.",
-    "image": "https://via.placeholder.com/400x300?text=Margherita+Pizza"
+    "image": "https://via.placeholder.com/400x300?text=Margherita+Pizza",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "servings": 2,
+    "ingredients": [
+      "1 pizza dough (store-bought or homemade)",
+      "200ml pizza sauce or tomato sauce",
+      "250g fresh mozzarella",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Optional: Parmesan cheese"
+    ],
+    "instructions": [
+      "Preheat oven to 220°C (425°F).",
+      "Roll out pizza dough on a floured surface.",
+      "Spread tomato sauce evenly on the dough, leaving a border for the crust.",
+      "Tear mozzarella and distribute over the sauce.",
+      "Drizzle with olive oil. Season with salt and pepper.",
+      "Bake for 12-15 minutes until crust is golden and cheese is melted.",
+      "Remove from oven and add fresh basil leaves.",
+      "Drizzle with more olive oil if desired. Serve hot."
+    ]
   },
   {
     "id": 4,
     "title": "Thai Green Curry",
     "summary": "Aromatic green curry with coconut milk, vegetables, and tender chicken.",
-    "image": "https://via.placeholder.com/400x300?text=Thai+Green+Curry"
+    "image": "https://via.placeholder.com/400x300?text=Thai+Green+Curry",
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "servings": 4,
+    "ingredients": [
+      "600g chicken breast, sliced",
+      "3 tbsp green curry paste",
+      "400ml coconut milk",
+      "200g green beans",
+      "1 bell pepper, sliced",
+      "200g Thai eggplant (or regular eggplant)",
+      "3 kaffir lime leaves",
+      "1 tbsp fish sauce",
+      "1 tbsp brown sugar",
+      "2 tbsp vegetable oil",
+      "Fresh Thai basil for garnish"
+    ],
+    "instructions": [
+      "Heat oil in a large pan or wok over medium-high heat.",
+      "Add green curry paste and cook for 2 minutes until fragrant.",
+      "Pour in half the coconut milk and stir well.",
+      "Add chicken and cook until no longer pink, about 8 minutes.",
+      "Add remaining coconut milk, green beans, bell pepper, and eggplant.",
+      "Add kaffir lime leaves, fish sauce, and brown sugar.",
+      "Simmer for 15 minutes until vegetables are tender.",
+      "Taste and adjust seasoning. Garnish with fresh Thai basil.",
+      "Serve over jasmine rice."
+    ]
   },
   {
     "id": 5,
     "title": "Beef Tacos",
     "summary": "Mexican-style tacos with seasoned ground beef, fresh toppings, and warm tortillas.",
-    "image": "https://via.placeholder.com/400x300?text=Beef+Tacos"
+    "image": "https://via.placeholder.com/400x300?text=Beef+Tacos",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "servings": 4,
+    "ingredients": [
+      "500g ground beef",
+      "8 corn or flour tortillas",
+      "2 tbsp taco seasoning",
+      "1/4 cup water",
+      "1 cup shredded lettuce",
+      "1 cup diced tomatoes",
+      "1 cup shredded cheddar cheese",
+      "1/2 cup sour cream",
+      "1/2 cup salsa",
+      "1 lime, cut into wedges",
+      "Fresh cilantro"
+    ],
+    "instructions": [
+      "Heat oil in a skillet over medium-high heat.",
+      "Add ground beef and cook until browned, breaking it into small pieces. Drain excess fat.",
+      "Add taco seasoning and water. Simmer for 5 minutes.",
+      "Warm tortillas in a dry skillet or over a gas flame.",
+      "Assemble tacos: place meat on a tortilla and top with lettuce, tomato, and cheese.",
+      "Add a dollop of sour cream and salsa.",
+      "Garnish with cilantro and serve with lime wedges.",
+      "Serve with additional toppings on the side."
+    ]
   },
   {
     "id": 6,
     "title": "Caesar Salad",
     "summary": "Crisp romaine lettuce with parmesan cheese, croutons, and creamy Caesar dressing.",
-    "image": "https://via.placeholder.com/400x300?text=Caesar+Salad"
+    "image": "https://via.placeholder.com/400x300?text=Caesar+Salad",
+    "prepTime": "15 mins",
+    "cookTime": "0 mins",
+    "servings": 2,
+    "ingredients": [
+      "2 heads romaine lettuce, chopped",
+      "100g Parmesan cheese, shaved",
+      "1 cup croutons",
+      "2 cloves garlic, minced",
+      "1 tbsp Dijon mustard",
+      "2 tbsp lemon juice",
+      "4 tbsp olive oil",
+      "2 tbsp anchovies (optional)",
+      "Salt and pepper to taste",
+      "Optional: Grilled chicken or shrimp"
+    ],
+    "instructions": [
+      "In a small bowl, whisk together minced garlic, mustard, lemon juice, and anchovies if using.",
+      "Slowly whisk in olive oil until emulsified.",
+      "Season dressing with salt and pepper to taste.",
+      "In a large bowl, toss romaine lettuce with the dressing.",
+      "Top with Parmesan shavings and croutons.",
+      "If adding protein, place grilled chicken or shrimp on top.",
+      "Serve immediately and enjoy!"
+    ]
   }
 ]
