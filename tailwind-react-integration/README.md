@@ -1,35 +1,16 @@
-UserProfile component (Tailwind)
+# React + Vite
 
-This folder contains a styled, responsive `UserProfile` React component using Tailwind CSS utilities.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-File:
-- src/components/UserProfile.jsx
+Currently, two official plugins are available:
 
-Notes:
-- The component expects Tailwind CSS to be configured in the parent project (Tailwind directives in CSS and proper PostCSS setup).
-- Responsive classes used:
-  - Container: `p-4` on small screens, `md:p-8` on medium and up
-  - Max width: `max-w-xs` on small, `md:max-w-sm` on medium and up
-  - Image: `w-24 h-24` on small, `md:w-36 md:h-36` on medium and up
-  - Heading: `text-lg` on small, `md:text-xl` on medium and up
-- Interactivity:
-  - Image scales on hover (`hover:scale-110`, `transition-transform duration-300`)
-  - Card shadow increases on hover (`hover:shadow-xl`, `transition-shadow`)
-  - Heading color changes on hover (`hover:text-blue-500`)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Usage:
-Import and render the component in your app:
+## React Compiler
 
-```jsx
-import UserProfile from './components/UserProfile';
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-function App() {
-  return (
-    <div>
-      <UserProfile />
-    </div>
-  );
-}
-```
+## Expanding the ESLint configuration
 
-If Tailwind is not yet configured in this project, follow the official Tailwind + Vite/React setup instructions before running the app.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
