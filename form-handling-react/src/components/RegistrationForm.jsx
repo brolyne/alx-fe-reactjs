@@ -8,6 +8,8 @@ export default function RegistrationForm() {
 
   function validate() {
     const errs = {}
+    if (!email) errs.email = 'Email is required'
+    if (!password) errs.password = 'Password is required'
     if (!username.trim()) errs.username = 'Username is required'
     if (!email.trim()) errs.email = 'Email is required'
     if (!password.trim()) errs.password = 'Password is required'
