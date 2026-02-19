@@ -7,6 +7,7 @@ import ProfileDetails from './components/ProfileDetails'
 import ProfileSettings from './components/ProfileSettings'
 import Login from './components/Login'
 import UserPost from './components/UserPost'
+import BlogPost from './components/BlogPost'
 import NotFound from './components/NotFound'
 import ProtectedRoute from './components/ProtectedRoute'
 import './index.css'
@@ -53,6 +54,7 @@ export default function App() {
         </Route>
 
         <Route path="/posts/:postId" element={<UserPost />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
