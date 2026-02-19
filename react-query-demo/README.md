@@ -1,16 +1,4 @@
-# React Query Demo
 
-This is a minimal demo showing how to use `react-query` to fetch, cache, and refetch data from the JSONPlaceholder API.
-
-Quick start:
-
-```bash
-cd react-query-demo
-npm install
-npm run dev
-```
-
-Open the app, toggle the `PostsComponent` to unmount/mount it and observe caching behavior. Use the "Refetch Posts" button to trigger an update.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
