@@ -1,11 +1,13 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useAuth } from './AuthProvider'
 
-export default function Login({ onLogin }) {
+export default function Login() {
   const navigate = useNavigate()
+  const { login } = useAuth()
 
   function handleLogin() {
-    onLogin()
+    login()
     navigate('/profile')
   }
 
