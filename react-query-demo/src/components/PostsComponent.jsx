@@ -11,7 +11,12 @@ export default function PostsComponent() {
   const { data, error, isLoading, isError, refetch, isFetching } = useQuery(
     'posts',
     fetchPosts,
-    { staleTime: 1000 * 60 * 5 } // keep data fresh for 5 minutes
+    {
+      staleTime: 1000 * 60 * 5, // keep data fresh for 5 minutes
+      cacheTime: 1000 * 60 * 10, // keep cached data for 10 minutes
+      refetchOnWindowFocus: false, // avoid refetch when window regains focus
+      keepPreviousData: true // keep previous data while fetching new
+    }
   )
 
   return (
